@@ -9,6 +9,7 @@ $cup2 = "Coffee"
 $cup3 = $cup1 + $cup2 
 $cup3
 
+Write-Output($var3)
 #DataTypes
 
 # Int, float, bool, string, double, int32, int64, int16
@@ -24,4 +25,14 @@ $number.GetType() #float/double store only true or fals
 
 $number = $true
 $number.GetType() #float will store 23.653 value
+
+#Data Conversion
+[string]$var1 = Read-Host "Enter your first number:"
+[string]$var2 = Read-Host "Enter your second number: "
+$var3 = $var1 + $var2
+
+# Array, Hashtable
+
+
+
 
