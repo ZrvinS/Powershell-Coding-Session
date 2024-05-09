@@ -31,8 +31,17 @@ $boolvariable.GetType()  #float/double store only true or fals
 [string]$var2 = Read-Host "Enter your second number: "
 $var3 = $var1 + $var2
 
-# Array, Hashtable
+
+$globalvar = "Hi I am global"
+function varcheck1 {
+  
+    $varfromfunction1 = 23
+    Write-Host $globalvar
+}
 
 
-
-
+function  varcheck2 {
+   
+    $varfromfunction2 = 22
+    Write-Host $varfromfunction1
+}
