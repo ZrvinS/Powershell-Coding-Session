@@ -17,14 +17,14 @@ Write-Output($var3)
 $number = 23543546346
 $number.GetType() #Int will only store numbers
 
-$number = "hello world"
-$number.GetType() #string will only store string value like characters
+$stringVariable = "hello world"
+$stringVariable.GetType() #string will only store string value like characters
 
-$number = 34543.56544
-$number.GetType() #float/double store only true or fals
+$floatvariable = 34543.56544
+$floatvariable.GetType() #float will store 23.653 value
 
-$number = $true
-$number.GetType() #float will store 23.653 value
+$boolvariable = $true
+$boolvariable.GetType()  #float/double store only true or fals
 
 #Data Conversion
 [string]$var1 = Read-Host "Enter your first number:"
